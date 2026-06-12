@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para o amor da minha vida 🖤</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hero">
+
+    <img src="imagens/praia.jpg" class="cover">
+
+    <div class="info">
+        <h1>Para o amor da minha vida 🖤</h1>
+
+        <p>
+            Nossa história em uma playlist.
+        </p>
+
+        <a class="play"
+        href="https://open.spotify.com/track/4Uiw0Sl9yskBaC6P4DcdVD"
+        target="_blank">
+            ▶ Ouvir Playlist
+        </a>
+
+    </div>
+
+</div>
+
+<h2 class="titulo-story">Nossos Stories</h2>
+
+<div class="stories">
+
+    <div class="story" onclick="abrirStory('imagens/praia.jpg')">
+        <img src="imagens/praia.jpg">
+    </div>
+
+    <div class="story" onclick="abrirStory('imagens/selfie-preto.jpg')">
+        <img src="imagens/selfie-preto.jpg">
+    </div>
+
+    <div class="story" onclick="abrirStory('imagens/espelho.jpg')">
+        <img src="imagens/espelho.jpg">
+    </div>
+
+    <div class="story" onclick="abrirStory('imagens/dormindo.jpg')">
+        <img src="imagens/dormindo.jpg">
+    </div>
+
+    <div class="story" onclick="abrirStory('imagens/peruca-rosa.jpg')">
+        <img src="imagens/peruca-rosa.jpg">
+    </div>
+
+</div>
+
+<div class="playlist">
+
+<h2>Playlist</h2>
+
+<div class="musica">
+
+    <img src="imagens/praia.jpg">
+
+    <div>
+        <h3>Be Quiet and Drive (Far Away)</h3>
+        <p>Deftones</p>
+    </div>
+
+</div>
+
+</div>
+
+<div id="storyModal">
+
+    <span onclick="fecharStory()">✕</span>
+
+    <img id="storyImg">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
